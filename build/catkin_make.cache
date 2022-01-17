@@ -1,0 +1,2 @@
+
+-DCATKIN_DEVEL_PREFIX=/home/huigang/codespace/ros/arduino_mpu6050_imu/devel -DCMAKE_INSTALL_PREFIX=/home/huigang/codespace/ros/arduino_mpu6050_imu/install -G Unix Makefiles
