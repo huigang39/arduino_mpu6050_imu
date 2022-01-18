@@ -1,0 +1,8 @@
+prefix=/home/huigang/codespace/ros/arduino_mpu6050_imu/devel
+
+Name: mpu6050_imu_converter
+Description: Description of mpu6050_imu_converter
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

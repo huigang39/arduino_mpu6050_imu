@@ -1,2 +1,2 @@
-
+imu_tools/imu_complementary_filter:imu_tools/imu_filter_madgwick:imu_tools/imu_tools:imu_tools/rviz_imu_plugin:mpu6050_imu_ros/mpu6050_imu_converter:mpu6050_imu_ros/mpu6050_imu_driver:readIMU
 -DCATKIN_DEVEL_PREFIX=/home/huigang/codespace/ros/arduino_mpu6050_imu/devel -DCMAKE_INSTALL_PREFIX=/home/huigang/codespace/ros/arduino_mpu6050_imu/install -G Unix Makefiles

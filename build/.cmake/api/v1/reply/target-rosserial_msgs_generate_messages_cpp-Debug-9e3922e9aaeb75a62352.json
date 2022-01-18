@@ -1,0 +1,55 @@
+{
+	"backtrace" : 4,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"find_package",
+			"rosserial_generate_ros_lib"
+		],
+		"files" : 
+		[
+			"/opt/ros/noetic/share/rosserial_msgs/cmake/rosserial_msgsConfig.cmake",
+			"/opt/ros/noetic/share/rosserial_client/cmake/rosserial_client-extras.cmake",
+			"mpu6050_imu_ros/mpu6050_imu_driver/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 17,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 32,
+				"parent" : 1
+			},
+			{
+				"file" : 0,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 184,
+				"parent" : 3
+			}
+		]
+	},
+	"id" : "rosserial_msgs_generate_messages_cpp::@8bb7916c52b70cd62a55",
+	"name" : "rosserial_msgs_generate_messages_cpp",
+	"paths" : 
+	{
+		"build" : "mpu6050_imu_ros/mpu6050_imu_driver",
+		"source" : "mpu6050_imu_ros/mpu6050_imu_driver"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

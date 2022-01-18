@@ -19,7 +19,7 @@ except ImportError:
             break
     from catkin.environment_cache import generate_environment_script
 
-code = generate_environment_script('/home/huigang/codespace/ros/arduino_mpu6050_imu/build/devel/env.sh')
+code = generate_environment_script('/home/huigang/codespace/ros/arduino_mpu6050_imu/devel/env.sh')
 
 output_filename = '/home/huigang/codespace/ros/arduino_mpu6050_imu/build/catkin_generated/setup_cached.sh'
 with open(output_filename, 'w') as f:

@@ -1,0 +1,8 @@
+prefix=/home/huigang/codespace/ros/arduino_mpu6050_imu/install
+
+Name: rviz_imu_plugin
+Description: Description of rviz_imu_plugin
+Version: 1.2.3
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: rviz

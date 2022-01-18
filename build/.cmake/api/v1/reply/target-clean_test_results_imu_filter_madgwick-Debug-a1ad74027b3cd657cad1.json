@@ -1,0 +1,89 @@
+{
+	"backtrace" : 4,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"catkin_run_tests_target",
+			"_catkin_add_google_test",
+			"catkin_add_gtest"
+		],
+		"files" : 
+		[
+			"/opt/ros/noetic/share/catkin/cmake/test/tests.cmake",
+			"/opt/ros/noetic/share/catkin/cmake/test/gtest.cmake",
+			"imu_tools/imu_filter_madgwick/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 66,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 37,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 98,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 185,
+				"parent" : 3
+			}
+		]
+	},
+	"id" : "clean_test_results_imu_filter_madgwick::@4f5f6f84b10ef5ce8a2f",
+	"name" : "clean_test_results_imu_filter_madgwick",
+	"paths" : 
+	{
+		"build" : "imu_tools/imu_filter_madgwick",
+		"source" : "imu_tools/imu_filter_madgwick"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "/home/huigang/codespace/ros/arduino_mpu6050_imu/build/imu_tools/imu_filter_madgwick/CMakeFiles/clean_test_results_imu_filter_madgwick",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/huigang/codespace/ros/arduino_mpu6050_imu/build/imu_tools/imu_filter_madgwick/CMakeFiles/clean_test_results_imu_filter_madgwick.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

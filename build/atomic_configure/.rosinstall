@@ -1,2 +1,2 @@
 - setup-file:
-    local-name: /home/huigang/codespace/ros/arduino_mpu6050_imu/build/devel/setup.sh
+    local-name: /home/huigang/codespace/ros/arduino_mpu6050_imu/devel/setup.sh

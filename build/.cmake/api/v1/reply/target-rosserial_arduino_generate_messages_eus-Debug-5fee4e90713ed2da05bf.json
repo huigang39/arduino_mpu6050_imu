@@ -1,0 +1,58 @@
+{
+	"backtrace" : 5,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"find_package"
+		],
+		"files" : 
+		[
+			"/opt/ros/noetic/share/rosserial_arduino/cmake/rosserial_arduinoConfig.cmake",
+			"/opt/ros/noetic/share/catkin/cmake/catkinConfig.cmake",
+			"mpu6050_imu_ros/mpu6050_imu_driver/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 2,
+				"line" : 7,
+				"parent" : 0
+			},
+			{
+				"file" : 1,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 76,
+				"parent" : 2
+			},
+			{
+				"file" : 0,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 184,
+				"parent" : 4
+			}
+		]
+	},
+	"id" : "rosserial_arduino_generate_messages_eus::@8bb7916c52b70cd62a55",
+	"name" : "rosserial_arduino_generate_messages_eus",
+	"paths" : 
+	{
+		"build" : "mpu6050_imu_ros/mpu6050_imu_driver",
+		"source" : "mpu6050_imu_ros/mpu6050_imu_driver"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

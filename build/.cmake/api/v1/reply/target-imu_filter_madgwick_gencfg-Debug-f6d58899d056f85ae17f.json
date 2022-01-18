@@ -1,0 +1,81 @@
+{
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"generate_dynamic_reconfigure_options"
+		],
+		"files" : 
+		[
+			"/opt/ros/noetic/share/dynamic_reconfigure/cmake/dynamic_reconfigure-macros.cmake",
+			"imu_tools/imu_filter_madgwick/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 9,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 84,
+				"parent" : 1
+			}
+		]
+	},
+	"id" : "imu_filter_madgwick_gencfg::@4f5f6f84b10ef5ce8a2f",
+	"name" : "imu_filter_madgwick_gencfg",
+	"paths" : 
+	{
+		"build" : "imu_tools/imu_filter_madgwick",
+		"source" : "imu_tools/imu_filter_madgwick"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "/home/huigang/codespace/ros/arduino_mpu6050_imu/build/imu_tools/imu_filter_madgwick/CMakeFiles/imu_filter_madgwick_gencfg",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/huigang/codespace/ros/arduino_mpu6050_imu/build/imu_tools/imu_filter_madgwick/CMakeFiles/imu_filter_madgwick_gencfg.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/huigang/codespace/ros/arduino_mpu6050_imu/devel/include/imu_filter_madgwick/ImuFilterMadgwickConfig.h.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}
